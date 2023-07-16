@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+ 
+<meta charset="UTF-8">
+  
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ 
+<title>Traductor de Código Morse</title>
+
+ 
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+<nav>
+    
+   
+    <ul>
+          
+         
+    <li><a href="index.html">Traductor Binario</a></li>
+          
+         
+    <li><a href="morse.html">Traductor de Código Morse</a></li>
+        
+       
+    </ul>
+      
+     
+    </nav>
+  
+ 
+<div class="container">
+    
+   
+<h1>Traductor de Código Morse</h1>
+    
+   
+<div class="input-container">
+      
+<label for="morse-input">Código Morse:</label>
+      
+     
+<input type="text" id="morse-input">
+      
+     
+<button onclick="morseToText()">Traducir a Texto</button>
+    </div>
+    
+   
+<div class="input-container">
+      
+     
+<label for="text-input">Texto:</label>
+      
+<input type="text" id="text-input">
+      
+     
+<button onclick="textToMorse()">Traducir a Código Morse</button>
+    
+   
+</div>
+    
+   
+<div class="output-container">
+      
+     
+<label for="output">Resultado:</label>
+      
+      
+<textarea id="output" readonly></textarea>
+    
+    </div>
+  
+ 
+</div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
