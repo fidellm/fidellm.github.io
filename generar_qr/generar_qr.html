@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Códigos QR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Generador de Códigos QR</h1>
+    </header>
+    <main>
+        <div class="qr-generator">
+            <label for="qr-text">Texto o URL:</label>
+            <input type="text" id="qr-text" placeholder="Escribe aquí" required>
+            <button id="generate-button">Generar Código QR</button>
+            <div id="qr-code"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Generador de Códigos QR. Todos los derechos reservados.</p>
+    </footer>
+    <script src="qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
