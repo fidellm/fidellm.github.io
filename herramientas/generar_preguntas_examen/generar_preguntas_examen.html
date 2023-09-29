@@ -1,0 +1,80 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Preguntas de Examen</title>
+    <link rel="stylesheet" href="../../nav.css">
+    <link rel="stylesheet" href="probar.css">
+    <link rel="stylesheet" href="../../footer.css">
+</head>
+<body>
+
+    
+<nav>
+
+    
+    <ul>
+        <li><a href="../../index.html"> Menú</a></li>
+    </ul>
+    
+   
+    <ul>
+          
+         
+    <li><a href="../../index.html">Traductor Binario</a></li>
+          
+         
+    <li><a href="../traductor_código_morse/morse.html">Traductor de Código Morse</a></li>
+        
+
+    <li><a href="../calcular_imc/imc.html">Calculadora de IMC</a></li>
+    
+    <li><a href="../calcular_edad_perros/calc_edad_perros.html">Calculadora de edad de perros</a></li>
+  
+    <li><a href="../generar_preguntas_examen/generar_preguntas_examen.html">Generar preguntas para examen</a></li>
+
+       
+    </ul>
+      
+     
+</nav>
+
+
+
+    <header>
+        <h1>Generador de Preguntas de Examen</h1>
+    </header>
+    <main>
+        <form id="question-form">
+            <label for="question">Pregunta:</label>
+            <textarea id="question" rows="4" required></textarea>
+
+            <label for="choices">Opciones de Respuesta:</label>
+            <input type="text" id="choices" placeholder="Opción 1" required>
+            <input type="text" placeholder="Opción 2" required>
+            <input type="text" placeholder="Opción 3" required>
+            <input type="text" placeholder="Opción 4" required>
+
+            <label for="correct-answer">Respuesta Correcta:</label>
+            <select id="correct-answer" required>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+                <option value="3">Opción 3</option>
+                <option value="4">Opción 4</option>
+            </select>
+
+            <button type="submit">Generar Pregunta</button>
+        </form>
+
+        <div id="question-output"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Generador de Preguntas de Examen. Todos los derechos reservados.</p>
+    </footer>
+    <script src="probar.js"></script>
+</body>
+</html>
