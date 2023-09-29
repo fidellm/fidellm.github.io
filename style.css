@@ -42,19 +42,16 @@ nav ul {
     padding: 10px;
       
      
+    /*
     transition: all 0.3s ease;
-    }
+    */
+}
     
     nav ul li a:hover {
       
      
     background-color: #555;
     }
-
-
-
-
-
 
 
 
@@ -82,6 +79,9 @@ h1 {
     max-width: 40%;
     font-size: 140%;
 }
+
+
+
 
 .container {
     background-color: #eee;
@@ -158,3 +158,8 @@ button {
 }
 
 
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
