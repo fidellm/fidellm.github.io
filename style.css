@@ -52,7 +52,9 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-
+ul {
+    margin-bottom: 20px;
+}
 
 
 
