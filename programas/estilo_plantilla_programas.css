@@ -8,7 +8,6 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: #333;
     color: white;
@@ -29,12 +28,19 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.program-info {
-    margin-bottom: 20px;
+.program-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.download-button {
+.program {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 h2 {
