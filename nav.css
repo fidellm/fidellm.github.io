@@ -1,13 +1,12 @@
 
 
-
+   
 nav {
 
 
     background-color: #333;
-
-    margin-bottom: 5px;
-
+    
+    margin-bottom: 4px;
 }
 
 nav ul {
@@ -15,22 +14,27 @@ nav ul {
        
     list-style: none;
       
+     
+      
+     
+    padding: 0;
       
      
     display: flex;
       
      
     justify-content: center;
-}
+    }
     
-    
-nav ul li {
-
-    margin-right: 17px;
-}
-    
-nav ul li a {
+    nav ul li {
       
+     
+    margin-right: 17px;
+    }
+    
+    nav ul li a {
+      
+     
     color: #fff;
       
      
@@ -39,14 +43,10 @@ nav ul li a {
      
     padding: 10px;
       
-    
      
-}
-
-li {
-    
-    border-radius: 8px;
-    border-style: solid;
+    /*
+    transition: all 0.3s ease;
+    */
 }
     
 li:hover {
@@ -55,5 +55,5 @@ li:hover {
 }
 
 ul {
-    margin-bottom: 7px;
+    margin-bottom: 20px;
 }
