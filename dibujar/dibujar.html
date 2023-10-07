@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Dibujo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../menu.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Menú</a></li>
+            </ul>
+        </nav>
+        <h1>Aplicación de Dibujo</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <label for="brush-color">Color del Pincel:</label>
+            <input type="color" id="brush-color" value="#000000">
+            
+            <label for="brush-size">Tamaño del Pincel:</label>
+            <input type="number" id="brush-size" min="1" max="50" value="5">
+
+
+            <button id="undo-button">Deshacer</button>
+        </div>
+        <canvas id="drawing-canvas" width="800" height="500"></canvas>
+    </main>
+    <footer>
+        <p>&copy; 2023 Aplicación de Dibujo. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
